@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <parameter name="login" value="tanya.gladkova.2013-qdsa@force.com"/>
+    <parameter name="password" value="tanyagladkova2001"/>
+    <test name="test 1">
+        <classes>
+            <class name="saleforce.AddContactsTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite>
