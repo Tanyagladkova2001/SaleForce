@@ -13,7 +13,7 @@ pipeline {
                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn clean test -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=1"
+                sh "mvn clean test -Dlogin=tanya.gladkova.2013-eeuc@force.com -Dpassword=tanyagladkova2001 -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=1"
             }
 
             post {
